@@ -1,0 +1,13 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    outline: 2px solid red;
+}
+
+.button {
+    padding: 10px;
+
+}
+
