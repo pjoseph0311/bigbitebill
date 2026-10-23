@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    color: rgb(116, 113, 113);
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Playfair Display", Fraunces, "DM Serif Display";
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    /* figure out how to do line under navbar using border perhaps? */
+}
+
+.button {
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(85, 142, 211);
+    color: white;
+    border-radius: 100px;
+    border-color: rgb(85, 142, 211);
+}
+
+.b1 {
+    font-size: 30px;
+    color: black;
+}
+
+.pfp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 100px;
+}
+
+.head-shot {
+    display: flex;
+    justify-content: center;
+}
+
+.head-shot img {
+    border-radius: 10%;
+    width: 460px;
+    height: auto;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#gallery button {
+    background-color: white;
+    color: rgb(116, 113, 113);
+    border-radius: 10%;
+}
