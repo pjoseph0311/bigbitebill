@@ -1,3 +1,14 @@
+* {
+    color: rgb(116, 113, 113);
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Playfair Display", Fraunces, "DM Serif Display";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -6,13 +17,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-}
-
-* {
-    color: rgb(116, 113, 113);
-    font-size: 24px;
-    text-decoration: none;
-    font-family: "Playfair Display", Fraunces, "DM Serif Display";
 }
 
 .navbar {
