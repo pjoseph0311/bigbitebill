@@ -2,7 +2,7 @@
     color: rgb(116, 113, 113);
     font-size: 24px;
     text-decoration: none;
-    font-family: "Playfair Display", Fraunces, "DM Serif Display";
+    font-family: 'DM sans', Arial, sans-serif;
 }
 
 html {
@@ -21,14 +21,15 @@ html {
 
 .navbar {
     display: flex;
-    justify-content: center;
-    margin: 10px;
-    /* figure out how to do line under navbar using border perhaps? */
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgb(199, 196, 196);
 }
 
-.button {
+/* .button {
     padding: 15px;
-}
+} */
 
 button {
     background-color: rgb(85, 142, 211);
@@ -37,15 +38,23 @@ button {
     border-color: rgb(85, 142, 211);
 }
 
-.b1 {
-    font-size: 30px;
-    color: black;
+.pfp-main {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
 }
 
 .pfp {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+.brand-name {
+    font-size: 30px;
+    color: black;
+    font-family: "Playfair Display", serif;
 }
 
 h1 {
